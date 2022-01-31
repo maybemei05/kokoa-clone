@@ -18,6 +18,10 @@
   color: var(--gray-5)
 }
 
+.open-chat {
+  overflow-y: hidden;
+}
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
