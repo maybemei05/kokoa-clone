@@ -12,7 +12,33 @@
   font-size: 22px;
   opacity: 0.8;
 }
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column .badge {
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  margin-left: 10px;
+}
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.settings__setting:last-child {
+  border: none;
+}
+
+
+.settings-list {
+  padding-bottom: 80px;
 }
