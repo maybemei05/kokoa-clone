@@ -15,6 +15,7 @@
 .settings__setting-column {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .settings__setting-column .badge {
@@ -37,7 +38,6 @@
 .settings__setting:last-child {
   border: none;
 }
-
 
 .settings-list {
   overflow-y: hidden;

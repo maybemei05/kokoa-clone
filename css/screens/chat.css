@@ -1,6 +1,5 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
 }
 
 #chat-screen .alt-header,
@@ -239,4 +238,3 @@
 .reply:focus-within {
   transform: translateY(80px);
 }
-
